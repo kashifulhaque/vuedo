@@ -1,0 +1,4 @@
+client/node_modules/
+
+server/node_modules/
+server/postgres/connection/db.js
