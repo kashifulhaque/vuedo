@@ -22,7 +22,7 @@ You can learn more about these technologies here: 😄
 10. Type in `cd ..`
 11. Type in `cd server` and then run `npm install`. This action will also install [Express.js](https://expressjs.com)
 12. After all the _npm installs_ are complete, and you're in the `server` directory, hopefully.
-13. Type in `cd postgres/connection`. NOTE: You might have to use backslash **\** if you're on Windows.
+13. Type in `cd postgres/connection`. NOTE: You might have to use backslash "\" if you're on Windows.
 14. Rename the `dummy_db.json` to `db.json` and open it. Make sure to add all the necessary details mentioned there OR your PostgreSQL database connection will NOT work.
 15. Phew! That's it. `npm start` is the command which can used to run both server and the client, but you will have to run both commands separately in their respective directories.
 16. If you don't want to do that, you can use [`concurrently`](https://www.npmjs.com/package/concurrently). Make sure to read all the docs carefully on how to set that up.
